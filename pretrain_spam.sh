@@ -7,6 +7,6 @@ python build_pretraining_dataset.py \
 
 
 python run_pretraining.py \
-    --data-dir /mnt/data1/xialang/corpus/electra_pretrain_data \
-    --model-name electra_small
-    --
+    --data-dir ../electra_pretrain_data \
+    --model-name electra_small \
+    --hparams hparams.json

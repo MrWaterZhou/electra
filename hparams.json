@@ -1,0 +1,13 @@
+{
+  "pretrain_tfrecords": "/mnt/data1/xialang/projects/electra_pretrain_data/pretrain_tfrecords/pretrain_data*",
+  "vocab_file": "/mnt/data1/xialang/projects/electra_pretrain_data/vocab.txt",
+  "model_dir": "/mnt/data1/xialang/projects/electra_pretrain_data/models/electra_small",
+  "vocab_size": 21128,
+  "max_seq_length": 128,
+  "model_size": "small",
+  "num_train_steps": 1300000,
+  "save_checkpoints_steps": 10000,
+  "train_batch_size": 128,
+  "learning_rate": 5e-4,
+  "generator_hidden_size": 1.0
+}

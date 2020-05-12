@@ -5,7 +5,7 @@
   "vocab_size": 21128,
   "max_seq_length": 64,
   "model_size": "small",
-  "num_train_steps": 1300000,
+  "num_train_steps": 300000,
   "save_checkpoints_steps": 10000,
   "train_batch_size": 128,
   "learning_rate": 5e-4,
